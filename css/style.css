@@ -37,7 +37,7 @@ h2,h3,h4,h5,h6{
     color: white;
 }
 img{
-    max-width: 370px;
+    width: 100%;
 }
 /* Reviews */
 #reviews{
@@ -101,7 +101,7 @@ footer{
         color: white;
     }
     img{
-        max-width: 370px;
+        width: 100%;
     }
     /* Reviews */
     #reviews{
