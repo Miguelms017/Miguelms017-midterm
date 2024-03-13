@@ -36,6 +36,9 @@ h2,h3,h4,h5,h6{
     font-size: 18px;
     color: white;
 }
+img{
+    max-width: 370px;
+}
 /* Reviews */
 #reviews{
     background-color: #0c8f00;
@@ -55,8 +58,8 @@ h2,h3,h4,h5,h6{
     font-size:22px;
     color: #090161;
 }
-.rating{
-    height: 50px;
+.rating img{
+    height: 35px;
 }
 /* Footer */
 footer{
@@ -97,6 +100,9 @@ footer{
         grid-template-columns: 1fr 8px 1fr;
         color: white;
     }
+    img{
+        max-width: 370px;
+    }
     /* Reviews */
     #reviews{
         background-color: #0c8f00;
@@ -119,8 +125,9 @@ footer{
     .name{
         color: #090161;
     }
-    .rating{
-        height: 50px;
+    .rating img{
+        height: 30px;
+        min-width: 85px;
     }
     /* Footer */
     footer{
